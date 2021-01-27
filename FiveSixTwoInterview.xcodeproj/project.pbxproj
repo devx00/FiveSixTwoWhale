@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9C983DB25C10785007182F3 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C983DA25C10785007182F3 /* GridLayout.swift */; };
+		E9C983E025C10CB9007182F3 /* whales.json in Resources */ = {isa = PBXBuildFile; fileRef = E9C983DF25C10CB9007182F3 /* whales.json */; };
+		E9C983E625C16D86007182F3 /* QuizLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C983E525C16D86007182F3 /* QuizLayout.swift */; };
 		E9D1D01825C0C82A00357198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D01725C0C82A00357198 /* AppDelegate.swift */; };
 		E9D1D01A25C0C82A00357198 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D01925C0C82A00357198 /* SceneDelegate.swift */; };
-		E9D1D01C25C0C82A00357198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D01B25C0C82A00357198 /* ViewController.swift */; };
-		E9D1D01F25C0C82A00357198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D1D01D25C0C82A00357198 /* Main.storyboard */; };
+		E9D1D01C25C0C82A00357198 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D01B25C0C82A00357198 /* MainViewController.swift */; };
 		E9D1D02125C0C82D00357198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D1D02025C0C82D00357198 /* Assets.xcassets */; };
 		E9D1D02425C0C82D00357198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D1D02225C0C82D00357198 /* LaunchScreen.storyboard */; };
 		E9D1D02F25C0C82D00357198 /* FiveSixTwoInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D02E25C0C82D00357198 /* FiveSixTwoInterviewTests.swift */; };
 		E9D1D03A25C0C82D00357198 /* FiveSixTwoInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D03925C0C82D00357198 /* FiveSixTwoInterviewUITests.swift */; };
+		E9D1D04B25C0DAD200357198 /* Whale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D04A25C0DAD200357198 /* Whale.swift */; };
+		E9D1D05825C0DC1600357198 /* WhaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D05725C0DC1600357198 /* WhaleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9C983DA25C10785007182F3 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		E9C983DF25C10CB9007182F3 /* whales.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = whales.json; sourceTree = "<group>"; };
+		E9C983E525C16D86007182F3 /* QuizLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLayout.swift; sourceTree = "<group>"; };
 		E9D1D01425C0C82A00357198 /* FiveSixTwoInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveSixTwoInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D1D01725C0C82A00357198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D1D01925C0C82A00357198 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9D1D01B25C0C82A00357198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9D1D01E25C0C82A00357198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D1D01B25C0C82A00357198 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E9D1D02025C0C82D00357198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D1D02325C0C82D00357198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D1D02525C0C82D00357198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		E9D1D03525C0C82D00357198 /* FiveSixTwoInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveSixTwoInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D1D03925C0C82D00357198 /* FiveSixTwoInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveSixTwoInterviewUITests.swift; sourceTree = "<group>"; };
 		E9D1D03B25C0C82D00357198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D1D04A25C0DAD200357198 /* Whale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whale.swift; sourceTree = "<group>"; };
+		E9D1D05725C0DC1600357198 /* WhaleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9C983D925C10767007182F3 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				E9C983DA25C10785007182F3 /* GridLayout.swift */,
+				E9C983E525C16D86007182F3 /* QuizLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		E9C983EA25C19A99007182F3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1D01725C0C82A00357198 /* AppDelegate.swift */,
+				E9D1D01925C0C82A00357198 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E9C983EE25C19AAE007182F3 /* Views+Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1D01B25C0C82A00357198 /* MainViewController.swift */,
+				E9D1D05725C0DC1600357198 /* WhaleCollectionViewCell.swift */,
+			);
+			path = "Views+Controllers";
+			sourceTree = "<group>";
+		};
+		E9C983F225C19ACA007182F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1D04A25C0DAD200357198 /* Whale.swift */,
+				E9C983DF25C10CB9007182F3 /* whales.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E9D1D00B25C0C82A00357198 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +143,13 @@
 		E9D1D01625C0C82A00357198 /* FiveSixTwoInterview */ = {
 			isa = PBXGroup;
 			children = (
-				E9D1D01725C0C82A00357198 /* AppDelegate.swift */,
-				E9D1D01925C0C82A00357198 /* SceneDelegate.swift */,
-				E9D1D01B25C0C82A00357198 /* ViewController.swift */,
-				E9D1D01D25C0C82A00357198 /* Main.storyboard */,
+				E9C983D925C10767007182F3 /* Layouts */,
+				E9C983EA25C19A99007182F3 /* Delegates */,
+				E9C983EE25C19AAE007182F3 /* Views+Controllers */,
 				E9D1D02025C0C82D00357198 /* Assets.xcassets */,
 				E9D1D02225C0C82D00357198 /* LaunchScreen.storyboard */,
 				E9D1D02525C0C82D00357198 /* Info.plist */,
+				E9C983F225C19ACA007182F3 /* Model */,
 			);
 			path = FiveSixTwoInterview;
 			sourceTree = "<group>";
@@ -232,8 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D1D02425C0C82D00357198 /* LaunchScreen.storyboard in Resources */,
+				E9C983E025C10CB9007182F3 /* whales.json in Resources */,
 				E9D1D02125C0C82D00357198 /* Assets.xcassets in Resources */,
-				E9D1D01F25C0C82A00357198 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D1D01C25C0C82A00357198 /* ViewController.swift in Sources */,
+				E9D1D05825C0DC1600357198 /* WhaleCollectionViewCell.swift in Sources */,
+				E9D1D01C25C0C82A00357198 /* MainViewController.swift in Sources */,
 				E9D1D01825C0C82A00357198 /* AppDelegate.swift in Sources */,
+				E9C983E625C16D86007182F3 /* QuizLayout.swift in Sources */,
+				E9C983DB25C10785007182F3 /* GridLayout.swift in Sources */,
 				E9D1D01A25C0C82A00357198 /* SceneDelegate.swift in Sources */,
+				E9D1D04B25C0DAD200357198 /* Whale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E9D1D01D25C0C82A00357198 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9D1D01E25C0C82A00357198 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9D1D02225C0C82D00357198 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

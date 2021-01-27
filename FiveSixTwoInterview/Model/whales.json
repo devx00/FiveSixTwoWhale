@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Beluga Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-beluga-whale.png"
+    },
+    {
+        "name": "False Killer Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-false-killer-whale.png"
+    },
+    {
+        "name": "Bowhead Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-bowhead-whale.png"
+    },
+    {
+        "name": "Fin Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/2020-09/640x4270-fin-whale-v2.jpg"
+    },
+    {
+        "name": "Blue Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-blue-whale.jpg"
+    },
+    {
+        "name": "Bryde's Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/64-x427-brydes-whale.png"
+    },
+    {
+        "name": "Gray Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-gray-whale.png"
+    },
+    {
+        "name": "Humpback Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-humpback.png"
+    },
+    {
+        "name": "Killer Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-killer-whale.png"
+    },
+    {
+        "name": "Sei Whale",
+        "imageURL": "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-sei-whale.png"
+    }
+]
